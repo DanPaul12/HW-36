@@ -1,0 +1,17 @@
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+}
+
+img{
+    width:150px;
+    height: auto;
+}
+
+h1{
+    text-align: center;
+    background-color: rgba (195, 210, 224, .7);
+}
