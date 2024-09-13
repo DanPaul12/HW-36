@@ -1,17 +1,114 @@
-
+body{
+    background-color: rgba(255, 240, 242, .2);
+}
 
 header{
     display: flex;
     flex-direction: row;
-    justify-content: stretch;
+    align-items: center;
+    background-color: rgba(232, 240, 247, .8);
+    border-radius: 10px;
 }
 
 img{
     width:150px;
     height: auto;
+    margin: 1em;
+    border-radius: 75px;
+    border: 1px solid white;
+    padding: 1em;
+    background-color: rgba(237, 250, 239, .6);
 }
 
 h1{
+    flex-grow: 2;
+    background-color: rgba(250, 255, 204, 0.5);
     text-align: center;
-    background-color: rgba (195, 210, 224, .7);
+    font-family: 'Adamina';
+    text-shadow: 0 0 5em 10em red;
+    margin: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    border-radius: 25px;
+    border: .2em solid white;
+}
+
+#main0{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#main1, #main2{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Afacad';
+    margin: 2em 3em;
+}
+
+button{
+    font-family: 'Afacad';
+    background-color: rgba(237, 246, 253, .8);
+    border: .1em solid rgb(206, 216, 224);
+    font-size: 1.5em;
+    border-radius: 25px;
+    margin-top: .3em;
+    margin-bottom: .1em;
+    padding: .3em .4em;
+}
+
+h3{
+    font-size: 1.5em;
+    text-decoration: underline;
+    text-decoration-thickness: .1em;
+}
+
+#projects> ul{
+    list-style: none;
+}
+
+#main1{
+    background-color: rgba(250, 239, 224, .4);
+    padding:2em 4em;
+    border-radius: 20px;
+}
+
+#main2{
+    background-color: rgba(250, 239, 224, .4);
+    padding:2em 4em;
+    border-radius: 20px;
+}
+
+#contact{
+    background-color: rgba(208, 236, 209, .3);
+    border-radius: 25px;
+    padding: 1em 3em;
+}
+
+#About{
+    background-color: rgba(208, 236, 209, .3);
+    border-radius: 25px;
+    padding: 1em 3em;
+}
+
+#About>ul{
+    list-style:square;   
+}
+
+table{
+    background-color: aliceblue;
+    border-collapse: collapse;
+    border-color: rgb(198, 218, 230);
+}
+
+th, td{
+    padding: 1em 3em;
+}
+
+th{
+    background-color: rgba(254, 232, 236, 0.8);
+}
+
+tr:nth-child(odd){
+    background-color: rgba(240, 227, 252, 0.8);
 }
